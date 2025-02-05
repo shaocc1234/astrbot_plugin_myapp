@@ -10,4 +10,4 @@ class MyPlugin(Star):
     @filter.command("helloworld")
     async def helloworld(self, event: AstrMessageEvent):
         user_name = event.get_sender_name()
-        yield event.plain_result(f"Hello, {user_name}!") # 发送一条纯文本消息
+        yield event.plain_result(f"Hello, {user_name}，哈哈哈!") # 发送一条纯文本消息
